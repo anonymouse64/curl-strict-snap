@@ -17,6 +17,8 @@ apps:
     plugs:
       - home
       - removable-media
+      - network
+      - network-bind
 
 parts:
   my-part:
